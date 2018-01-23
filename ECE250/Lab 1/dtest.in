@@ -1,0 +1,73 @@
+new: 2
+capacity 4
+size 0
+insert 0.25
+insert -0.314
+insert 4.545
+insert 3
+insert!
+size 4
+bin 0 0.25
+bin 1 -0.314
+bin 2 4.545
+bin 3 3
+remove 3 1
+remove -0.314 1
+size 2
+member 3 0
+member -0.314 0
+member 0.25 1
+clear
+member 4.545 0
+insert -0.26
+insert -0.00000000001
+insert 6545645.2387248597
+insert 0.000000000000001
+bin 1 -0.00000000001
+bin 2 0.000000000000001
+insert!
+delete
+new: 3
+capacity 8
+size 0
+insert 3.210
+insert 4.5451
+insert 11.5441
+insert 19.56485415
+insert 22.54665165
+bin 6 19.56485415
+bin 3 3.210
+bin 4 4.5451
+bin 5 11.5441
+bin 1 22.54665165
+insert -5.1001
+insert -13.457
+insert -2
+bin 2 -13.457
+size 8
+remove 23452.0 0
+size 8
+insert!
+remove -13.457 1
+remove -5.1001 1
+remove -2.000 1
+size 5
+clear
+insert 3.333
+insert 3.333
+insert 3.666
+insert 3.777
+insert 3.333
+bin 5 3.666
+bin 7 3.3330000
+size 5
+remove 3.333 1
+remove 3.333 1
+remove 3.33300 1
+remove 3.333 0
+size 2
+capacity 8
+insert -534564.55
+delete
+memory 0
+summary
